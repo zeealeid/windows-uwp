@@ -293,7 +293,7 @@ To follow the card pattern using a NavigationView you will need to remove the de
             <Grid>
                 <Frame x:Name="contentFrame">
                     <StackPanel Orientation="Vertical" Margin="40,16,0,0">
-                        <Border Width="600" Height="200" Background="{ThemeResource LayerFillColorDefaultBrush}"
+                        <Border Width="600" Height="200" Background="{ThemeResource CardBackgroundFillColorDefaultBrush}"
                                 VerticalAlignment="Top" 
                                 HorizontalAlignment="Left" 
                                 Margin="16"
@@ -302,7 +302,7 @@ To follow the card pattern using a NavigationView you will need to remove the de
                                 BorderBrush="{ThemeResource CardStrokeColorDefaultBrush}">
                             <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center">Content here!</TextBlock>
                         </Border>
-                        <Border Width="600" Height="200" Background="{ThemeResource LayerFillColorDefaultBrush}"
+                        <Border Width="600" Height="200" Background="{ThemeResource CardBackgroundFillColorDefaultBrush}"
                                 VerticalAlignment="Top" 
                                 HorizontalAlignment="Left" 
                                 Margin="16" 
@@ -311,7 +311,7 @@ To follow the card pattern using a NavigationView you will need to remove the de
                                 BorderBrush="{ThemeResource CardStrokeColorDefaultBrush}">
                             <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center">Content here!</TextBlock>
                         </Border>
-                        <Border Width="600" Height="200" Background="{ThemeResource LayerFillColorDefaultBrush}"
+                        <Border Width="600" Height="200" Background="{ThemeResource CardBackgroundFillColorDefaultBrush}"
                                 VerticalAlignment="Top" 
                                 HorizontalAlignment="Left" 
                                 Margin="16"
